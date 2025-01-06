@@ -1,0 +1,12 @@
+Gross Domestic Product Per Capita 1960-2050 
+http://ghdx.healthdata.org/record/ihme-data/global-gdp-per-capita-1960-2050
+
+Polecenie:
+
+Oblicz podstawowe funkcje statystyczne używając zbioru danych z poprzedniego zajęcia
+1. Wczytywanie danych i wyśswietlanie podstawowych informacji
+2. Obliczanie podstawowych statystyk
+3. Identyfikacja i obsluga brakujących danych
+4. Wykrywanie wartości odstających
+5. Analiza zależności między kolumnami
+6. Przekształcanie danych
