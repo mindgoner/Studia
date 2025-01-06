@@ -1,0 +1,47 @@
+Gross Domestic Product Per Capita 1960-2050 
+http://ghdx.healthdata.org/record/ihme-data/global-gdp-per-capita-1960-2050
+
+Lista zadań:
+
+1. Ładowanie biblioteki Pandas
+2. Tworzenie ramki danych ze słownika
+3. Zachowanie ramki danych pobranych z pliku w formacie .csv
+4. Tworzenie ramki danych z listy list
+5. Transponowanie (wymiana kolumny a wierszy)
+6. Wyświetlić pierwsze 10 wierszy ramki danych
+7. Wyświetlić ostatnie 10 wierszy ramki danych 
+8. Wyświetlić informacje o ramce danych
+9. Wyświetlić ile wierszy i kolumn znajduje się w ramce danych
+10. Wyświetlić informacje statyczną o kolumnach liczbowych (wartości niepowtarzalne, średnia, odchylenie standardowe, minimum, kwartyle, maksimum)
+11. Wyświetlić informacje statyczną o kolumnach kategoryzowanych (ile unikalnych wartości, top - jaka jest najpopularniejsza wartość, freq - jak często najpopularniejsza)
+12. Usunąć brakujące wartości w ramce danych
+13. Przedstawić wybór wierszy i kolumny używając nazw oraz indeksów na różne sposoby
+14. Przedstawić wybór wierszy z ramki danych pod warunkiem osnośnie określonej wartości kolumny
+15. Przedstawić wybór wierszy z ramki danych pod warunkiem spełnienia kilku warunków jednocześnie
+16. Wybrać wiersze które zawierają w kolumnie skategoryzowanej określone słowo
+17. Wybrać wiersze które nie zawierają w kolumnie skategoryzowanej określonego słowa
+18. Utwórz kolumnę na podstawie istniejącej
+19. Usuń kolumnę
+20. Zmień nazwę kolumny
+21. Zachowaj ramkę danych jako plik csv na komputerze
+22. Wyświetlić liczbę wierszy
+23. Wyświetlić wartości unikatowe w kolumnie
+24. Wyświetlić liczby rekordów odpowiadających do wartości
+25. Sortowanie wierszy ramki danych według wartości określonej kolumny (malejąco, rosnąco)
+26. Wyświetlić wierszy dla 10 największych (najmniejszych) wartości określonej kolumny
+27. Wyświetlić wierszy dla 10 największych wartości określonej kolumny pod warunkiem określonych wartości innej kolumny
+28. Grupowanie wierszy według wartości kolumny skategoryzowanej, potem uśrednienie wartości wszystkich kolumn w grupie - MultiIndex
+29. Grupowanie wierszy według wartości kolumny skategoryzowanej, potem uśrednienie wartości dla pewnych kolumn, liczba wartości i mediana dla pozostałych kolumn w grupach
+30. Wyświetlić nazwy kolumn indeksu złożonego
+31. Posortować kolumnę˛ indeksu złożonego
+32. Stworzyć tabele przestawną (pivot table) na podstawie ramki danych
+33. Wyświetlić indeksy i kolumny tabeli przestawnej
+34. Utwórz indeks złożony tabeli przestawnej i wyświetl go
+35. Zaimportuj moduł pyplot z biblioteki matplotlib
+36. Wskazać, że wykresy należy rysować bezpośrednio w zeszycie, a nie w osobnej zakładce
+37. Wyświetlić wykres na podstawie tabeli przestawnej
+38. Narysować histogram na podstawie wartości kolumny
+39. Przedstawić sposoby łączenia ramek danych za pomocą metod merge i concat
+40. Pokazać dodawanie nowych kolumn za pomocą operacji matematycznych
+41. Przedstawić na przykładzie dodawanie nowych kolumn z pomocą funkcji lambda
+42. Przedstawić możliwości pracy z dużymi plikami przy użyciu argumentu chunksize
