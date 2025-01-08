@@ -1,0 +1,17 @@
+Zadanie dotyczy tworzenia wszystkich możliwych wykresów w celu eksploracji zbioru danych.
+
+1. Matplotlib:
+1.1 Wykres Liniowy
+1.2 Wykres Słupkowy
+1.3 Histogram
+1.4 Wykres Kołowy
+1.5 Wykres Punktowy (Scatter Plot)
+1.6 Wykres 3D
+
+2. Plotly:
+2.1 Wykres Liniowy (zmina motywu)
+2.2 Wykres Słupkowy
+2.3 Wykres Kołowy (zmiana motywu)
+2.4 Histogram (z adnotacjami, zmiana kolorów)
+2.5 Wykres Punktowy
+2.6 Wykres 3D
