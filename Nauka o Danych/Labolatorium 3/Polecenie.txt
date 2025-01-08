@@ -1,0 +1,6 @@
+1. Wczytywanie danych i wyświetlanie podstawowych informacji
+2. Obliczanie podstawowych statystyk
+3. Identyfikacja i obsluga brakujących danych
+4. Wykrywanie wartości odstających
+5. Analiza zalezności między kolumnami
+6. Przekształcanie danych
