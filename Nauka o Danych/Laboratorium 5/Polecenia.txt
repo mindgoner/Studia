@@ -1,0 +1,8 @@
+Proszę na podstawie własnego zbioru danych poprowadzić zaawansowaną eksploracyjną analizę danych, w tym:
+1. identyfikować wartości odstające za pomocą algorytmu Isolation Forest,
+2. redukować wymiarowość danych z użyciem PCA,
+3. tworzyć zaawansowane interaktywne wizualizacje danych,
+4. wizualizować dane wielowymiarowe za pomocą zaawansowanych algorytmów (t-SNE, UMAP),
+5. tworzyć interaktywne wizualizacje danych w 2D i 3D,
+6. analizować zależności między zmiennymi za pomocą macierzy korelacji.
+7. przeprowadzać testy statystyczne dla analizy różnic w grupach.
