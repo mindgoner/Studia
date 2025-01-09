@@ -1,0 +1,6 @@
+1. W Pythonie, R oraz KNIME porównaj wyniki regresji liniowej, Ridge, sieci neuronowych na tym samym zbiorze danych.
+2. Zbadaj wpływ zmiennych objaśniających na predykcję (np. analiza ważności cech w Ridge).
+3.  Wykonaj analizę reszt dla modelu regresji liniowej:
+3.1 Sprawdź założenie normalności błędów,
+3.2 Zbadaj autokorelację reszt (np. test Durbin-Watson w Pythonie lub R).
+4. Porównaj jakość modeli przy użyciu danych o różnych skalach (np. znormalizowanych i oryginalnych).
