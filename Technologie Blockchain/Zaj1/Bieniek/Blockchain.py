@@ -6,7 +6,8 @@ from flask import Flask, request, jsonify
 class Blockchain:
     def __init__(self):
         self.BB_chain = []
-        self.BB_create_block(previous_hash="Bieniek", nonce=58085)
+        self.nonce = 58085
+        self.BB_create_block(previous_hash="Bieniek", nonce=self.nonce)
 
     def BB_create_block(self, previous_hash, nonce):
         block = {
@@ -25,7 +26,7 @@ class Blockchain:
 
     def BB_add_block(self):
         previous_block = self.BB_chain[-1]
-        nonce = 0
+        nonce = self.nonce
         while True:
             new_block = self.BB_create_block(previous_block['hash'], nonce)
             if new_block['hash'].endswith("001"):
@@ -46,3 +47,4 @@ def get_chain():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
