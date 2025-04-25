@@ -1,0 +1,6 @@
+librosa
+soundfile
+textblob
+openai-whisper
+pandas
+pytorch
