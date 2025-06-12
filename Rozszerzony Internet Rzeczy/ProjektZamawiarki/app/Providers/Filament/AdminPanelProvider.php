@@ -12,6 +12,8 @@ use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 
 use App\Filament\Resources\UserResource;
+use App\Filament\Resources\Restaurant\TableResource;
+use App\Filament\Resources\Menu\MenuCategoriesResource;
 
 class AdminPanelProvider extends PanelProvider
 {
@@ -26,6 +28,8 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->resources([
                 UserResource::class,
+                TableResource::class,
+                MenuCategoriesResource::class,
             ])
             //->discoverResources(in: app_path('Filament/Admin/Resources'), for: 'App\\Filament\\Admin\\Resources')
             //->discoverPages(in: app_path('Filament/Admin/Pages'), for: 'App\\Filament\\Admin\\Pages')
